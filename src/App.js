@@ -3,6 +3,14 @@ import './App.css';
 
 function App() {
     return (
+        <>
+        <header>
+            <h1>Fruit perfection</h1>
+            <button type="button">
+                Shop nu!
+            </button>
+        </header>
+
         <main>
             <article className="product">
                 <img
@@ -45,6 +53,7 @@ function App() {
                 </article>
             </article>
         </main>
+        </>
     );
 }
 
