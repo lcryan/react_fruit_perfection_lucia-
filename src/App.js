@@ -6,14 +6,19 @@ import iceCubes from './assets/ijsblokjes.jpg'
 import {ReactComponent as ShoppingCart} from './assets/winkelmandje.svg';
 
 function App() {
+
+    function logClick() {
+        console.log('You clicked');
+    }
+
     return (
         <>
             <nav>
                 <ul>
                     <ShoppingCart className="shopping-cart-icon"/>
-                    <li> <a href="http://localhost:3000/"> Shop </a> </li>
-                    <li> <a href="http://localhost:3000/"> Ons verhaal </a> </li>
-                    <li> <a href="http://localhost:3000/"> Blog </a> </li>
+                    <li><a href="http://localhost:3000/"> Shop </a></li>
+                    <li><a href="http://localhost:3000/"> Ons verhaal </a></li>
+                    <li><a href="http://localhost:3000/"> Blog </a></li>
                 </ul>
             </nav>
             <header>
