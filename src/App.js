@@ -3,10 +3,19 @@ import './App.css';
 import lemons from './assets/citroenen.jpeg';
 import limes from './assets/limoenen.png'
 import iceCubes from './assets/ijsblokjes.jpg'
+import {ReactComponent as ShoppingCart} from './assets/winkelmandje.svg';
 
 function App() {
     return (
         <>
+            <nav>
+                <ul>
+                    <ShoppingCart className="shopping-cart-icon"/>
+                    <li> <a href="http://localhost:3000/"> Shop </a> </li>
+                    <li> <a href="http://localhost:3000/"> Ons verhaal </a> </li>
+                    <li> <a href="http://localhost:3000/"> Blog </a> </li>
+                </ul>
+            </nav>
             <header>
                 <h1>Fruit perfection</h1>
                 <button type="button">
